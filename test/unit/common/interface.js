@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
-let Client = require('../../lib/client');
-let Server = require('../../lib/server');
+let Client = require('../../../packages/common').Client;
+let Server = require('../../../packages/common').Server;
 
 describe('Interface Check', function(){
     it('Server Init', function(){

@@ -4,7 +4,7 @@
   "description": "Sampling of IP-based protocols",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha --check-leaks test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/efreiberg/ip-variety-pack#readme",
   "devDependencies": {
-    "lerna": "2.0.0-beta.37"
+    "lerna": "2.0.0-beta.37",
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
   }
 }

@@ -1,9 +1,9 @@
 language: node_js
 node_js:
   - "6.x"
-  - "5.x"
   - "4.x"
 install:
   - npm install
+  - lerna:bootstrap
 script:
-  - npm testÏ
+  - npm test
